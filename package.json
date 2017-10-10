@@ -15,7 +15,10 @@
   "bugs": {
     "url": "https://github.com/will-stone/browserosaurus/issues"
   },
-  "keywords": ["Electron", "Browser chooser"],
+  "keywords": [
+    "Electron",
+    "Browser chooser"
+  ],
   "author": "Will Stone",
   "license": "MIT",
   "devDependencies": {
@@ -37,27 +40,35 @@
     "electron-compile": "^6.4.1",
     "jsonpath": "^0.2.11",
     "mousetrap": "^1.6.1",
+    "npm": "^5.4.2",
     "opn": "^5.1.0",
     "xml2json": "^0.11.0"
   },
   "config": {
     "forge": {
       "make_targets": {
-        "win32": ["squirrel"],
-        "darwin": ["zip"],
-        "linux": ["deb", "rpm"]
+        "darwin": [
+          "dmg"
+        ]
       },
       "electronPackagerConfig": {
         "icon": "src/images/icon/icon.icns",
-        "ignore": ["docs"],
+        "ignore": [
+          "docs"
+        ],
         "protocols": [
           {
             "name": "HTTP link",
-            "schemes": ["http", "https"]
+            "schemes": [
+              "http",
+              "https"
+            ]
           },
           {
             "name": "File",
-            "schemes": ["file"]
+            "schemes": [
+              "file"
+            ]
           }
         ]
       }
