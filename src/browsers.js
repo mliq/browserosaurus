@@ -1,5 +1,5 @@
 export default [
-  { name: 'Google Chrome Canary', alias: 'd = Home', key: 'd' },
+    // { name: 'Google Chrome Canary', alias: 'd = Home', key: 'd' },
     //  { name: 'Brave', key: 'b' },
     // { name: 'Chromium', key: 'c' },
     //{ name: 'Firefox', key: 'f' },
@@ -8,7 +8,7 @@ export default [
     //{ name: 'Maxthon', key: 'm' },
     //{ name: 'Min', key: 'i' },
     //{ name: 'Opera', key: 'o' },
-  { name: 'Safari', alias: 'z = Safari', key: 'z' },
+  { name: 'Safari', alias: 's = Safari', key: 's' },
     //{ name: 'TorBrowser', key: 't' },
     //{ name: 'Vivaldi', key: 'v' }
 ]
